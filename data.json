@@ -1,0 +1,118 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "slug": "pinkRush",
+            "name": "Pink Rush Speedrun Platformer",
+            "genre": [
+                "Action",
+                "Platformer"
+            ],
+            "heroImage": "pinkRush.png",
+            "shortDescription": "Conquer 50+ levels, speedrun traps, set records, in classic speedrun platformer.",
+            "longDescription": "Get ready for the ultimate platformer experience with this action-packed game that combines the thrill of speedrunning with the challenge of conquering 60 different levels. Each level presents its own unique obstacles and traps, making every moment a heart-pounding adventure. Tap into your speedrunning skills and embark on this 2D offline game that guarantees hours of endless fun. Your mission is to conquer all 60 levels, maneuvering through deadly traps while setting the fastest times possible. With Pink Rush Speedrun Platformer you'll race against the clock, climbing to the top of the leaderboards. Are you up for the challenge? So, whether you're an experienced speedrunner or looking to start your platforming journey, Pink Rush Speedrun Platformer offers the classic speedrun experience you crave. Download the game now and immerse yourself in this breathtaking adventure. Get ready to become the ultimate speedrunning champion!",
+            "trailerUrl": "youtube.com/watch?v=ou3Iju0lWJA",
+            "screenshots": [
+                "pinkRushScreen1.png",
+                "pinkRushScreen2.png",
+                "pinkRushScreen3.png",
+                "pinkRushScreen4.png",
+                "pinkRushScreen5.png",
+                "pinkRushScreen6.png"
+            ],
+            "localization": [
+                "en",
+                "es",
+                "pt",
+                "ua",
+                "ru"
+            ],
+            "platform": [
+                "gm",
+                "ii",
+                "ng"
+            ]
+        }
+    ],
+    "platforms": [
+        {
+            "id": "cg",
+            "language": "Crazy Games",
+            "image": "crazyGames.png"
+        },
+        {
+            "id": "gd",
+            "language": "Game Distribution",
+            "image": "gameDistribution.png"
+        },
+        {
+            "id": "gm",
+            "language": "Game Monetize",
+            "image": "gameMonetize.png"
+        },
+        {
+            "id": "gp",
+            "language": "Game Pix",
+            "image": "gamePix.png"
+        },
+        {
+            "id": "ggp",
+            "language": "Google Play",
+            "image": "googlePlay.png"
+        },
+        {
+            "id": "ii",
+            "language": "Itch Io",
+            "image": "itchIo.png"
+        },
+        {
+            "id": "kg",
+            "language": "Kongregate",
+            "image": "kongregate.png"
+        },
+        {
+            "id": "ng",
+            "language": "New Grounds",
+            "image": "newGrounds.png"
+        }
+    ],
+    "languages": [
+        {
+            "id": "en",
+            "language": "English",
+            "image": "en.png"
+        },
+        {
+            "id": "es",
+            "language": "Spanish",
+            "image": "es.png"
+        },
+        {
+            "id": "pt",
+            "language": "Portuguese",
+            "image": "pt.png"
+        },
+        {
+            "id": "ua",
+            "language": "Ukranian",
+            "image": "ua.png"
+        },
+        {
+            "id": "ru",
+            "language": "Russian",
+            "image": "ru.png"
+        }
+    ],
+    "engines": [
+        {
+            "id": "c3",
+            "language": "Construct 3",
+            "image": "c3.png"
+        },
+        {
+            "id": "unity",
+            "language": "Unity",
+            "image": "unity.png"
+        }
+    ]
+}
