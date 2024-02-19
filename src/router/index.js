@@ -1,16 +1,13 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import home from '../views/home.vue'
-import about from '../views/about.vue'
-import games from '../views/games.vue'
-import privacyPolicy from '../views/privacyPolicy.vue'
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', name: 'home', component: home},
-        {path: '/about', name: 'about', component: about},
-        {path: '/games', name: 'games', component: games},
-        {path: '/privacyPolicy', name: 'privacyPolicy', component: privacyPolicy}
+        {path: '/', name: 'home', component: ()=>import('../views/home.vue')},
+        {path: '/about', name: 'about', component: ()=>import('../views/about.vue')},
+        {path: '/games', name: 'games', component: ()=>import('../views/games.vue')},
+        {path: '/games/:gameSlug', component: ()=>import('../views/game.vue')},
+        {path: '/privacyPolicy', name: 'privacyPolicy', component: ()=>import('../views/privacyPolicy.vue')}
     ]
 })
 

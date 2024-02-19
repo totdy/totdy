@@ -7,16 +7,16 @@
     <header>
       <div class="logo">totdy.pt</div>
       <nav>
-        <RouterLink to='/'>Home</RouterLink>
-        <RouterLink to='/games'>Games</RouterLink>
-        <RouterLink to='/about'>About</RouterLink>
+        <router-link to='/'>Home</router-link>
+        <router-link to='/games'>Games</router-link>
+        <router-link to='/about'>About</router-link>
       </nav>
     </header>
     <main>
       <router-view></router-view>
     </main>
     <footer>
-      <RouterLink to='/privacyPolicy'>Privacy Policy</RouterLink>
+      <router-link to='/privacyPolicy'>Privacy Policy</router-link>
     </footer>
   </div>
 </template>
