@@ -1,5 +1,5 @@
 <template>
-    <h2>Privacy Policy</h2>
+    <h1 class="text-2xl mb-5">Privacy Policy</h1>
     <p>We take your privacy seriously. This Privacy Policy describes how we collect, use, and share information when you use our game.</p>
     <p><strong>Collection of Information:</strong></p>
     <p>We do not collect any personally identifiable information about you when you play our game. However, we may collect non-personally identifiable information, such as gameplay data, in order to improve the game and enhance your user experience.</p>
