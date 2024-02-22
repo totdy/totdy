@@ -4,7 +4,7 @@
 
 <template>
   <div class="container mx-auto flex flex-col min-h-screen">
-    <header class="p-7 shrink-0">
+    <header class="p-7 shrink-0 flex flex-col gap-y-5">
       <div class="text-5xl">totdy.pt</div>
       <nav class="flex flex-row gap-x-5 *:cursor-pointer *:text-gray-500 hover:*:text-gray-300 ">
         <router-link class="[&.router-link-active]:text-gray-700" to='/'>Home</router-link>

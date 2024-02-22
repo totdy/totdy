@@ -38,81 +38,81 @@
     "platforms": [
         {
             "id": "cg",
-            "language": "Crazy Games",
+            "name": "Crazy Games",
             "image": "crazyGames.png"
         },
         {
             "id": "gd",
-            "language": "Game Distribution",
+            "name": "Game Distribution",
             "image": "gameDistribution.png"
         },
         {
             "id": "gm",
-            "language": "Game Monetize",
+            "name": "Game Monetize",
             "image": "gameMonetize.png"
         },
         {
             "id": "gp",
-            "language": "Game Pix",
+            "name": "Game Pix",
             "image": "gamePix.png"
         },
         {
             "id": "ggp",
-            "language": "Google Play",
+            "name": "Google Play",
             "image": "googlePlay.png"
         },
         {
             "id": "ii",
-            "language": "Itch Io",
+            "name": "Itch Io",
             "image": "itchIo.png"
         },
         {
             "id": "kg",
-            "language": "Kongregate",
+            "name": "Kongregate",
             "image": "kongregate.png"
         },
         {
             "id": "ng",
-            "language": "New Grounds",
+            "name": "New Grounds",
             "image": "newGrounds.png"
         }
     ],
     "languages": [
         {
             "id": "en",
-            "language": "English",
+            "name": "English",
             "image": "en.png"
         },
         {
             "id": "es",
-            "language": "Spanish",
+            "name": "Spanish",
             "image": "es.png"
         },
         {
             "id": "pt",
-            "language": "Portuguese",
+            "name": "Portuguese",
             "image": "pt.png"
         },
         {
             "id": "ua",
-            "language": "Ukranian",
+            "name": "Ukranian",
             "image": "ua.png"
         },
         {
             "id": "ru",
-            "language": "Russian",
+            "name": "Russian",
             "image": "ru.png"
         }
     ],
     "engines": [
         {
             "id": "c3",
-            "language": "Construct 3",
+            "name": "Construct 3",
             "image": "c3.png"
         },
         {
             "id": "unity",
-            "language": "Unity",
+            "name": "Unity",
             "image": "unity.png"
         }
     ]
