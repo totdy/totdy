@@ -17,22 +17,22 @@
                 {{ game.longDescription }}
             </div>
             <div class="flex flex-col">
-                <div class="flex flex-row gap-x-2 csv">Genre: 
+                <div class="flex flex-row gap-x-2 csv flex-wrap">Genre: 
                     <div v-for="genre in game.genre" class="flex flex-row gap-x-1">
                         {{ genre }}
                     </div>
                 </div>
-                <div class="flex flex-row gap-x-2 csv">Engine:
+                <div class="flex flex-row gap-x-2 csv flex-wrap">Engine:
                     <img :src="`/images/engines/${engine.image}`" :alt="` ${engine.name} logo `" class="max-w-6"> 
                     {{ engine.name }}                    
                 </div>
-                <div class="flex flex-row gap-x-2 csv">Localization:
+                <div class="flex flex-row gap-x-2 csv flex-wrap">Localization:
                     <div v-for="flag in localization" class="flex flex-row gap-x-1">
                         <img :src="`/images/flags/${flag.image}`" :alt="` ${flag.name} flag `" class="max-w-6">
                         {{ flag.name }}                        
                     </div>
                 </div>
-                <div class="flex flex-row gap-x-2 csv">Platform:
+                <div class="flex flex-row gap-x-2 csv flex-wrap">Platform:
                     <div v-for="platform in platforms" class="flex flex-row gap-x-1">
                         <img :src="`/images/platforms/${platform.image}`" :alt="` ${platform.name} logo `" class="max-w-6">
                         {{ platform.name }}                        
